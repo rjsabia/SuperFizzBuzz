@@ -1,0 +1,35 @@
+*{
+	box-sizing: border-box;
+}
+
+.top-container p {
+	height: 150px;
+	width: 100%;
+	background-color: beige;
+	padding-top: 35px;
+	color: black;
+	font-size: 60px;
+	font-family: arial;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0px;
+	border: solid 3px black;
+}
+.output-container-one p {
+	margin-top: 50px;
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	font-family: arial;
+	font-weight: bold;
+}
+.output-container-two ul {
+	color: limegreen;
+	font-size: 20px;
+	font-family: arial;
+	margin-top: 30px;
+	text-align: left;
+	padding-left: 180px;
+}
+
+
