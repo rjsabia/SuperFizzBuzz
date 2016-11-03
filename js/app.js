@@ -18,7 +18,4 @@ function FizzBang (numIn){
 var inputNumber = prompt("Please enter a whole number", "Enter number here");
 parseInt(inputNumber);
 
-if (inputNumber != null && inputNumber % 1 != 0) {
-
-	FizzBang(inputNumber);
-}
+FizzBang(inputNumber);
