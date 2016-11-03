@@ -1,5 +1,5 @@
-function FizzBang (limit){
-	for( var i = 1; i <= limit; i++){
+function FizzBang (numIn){
+	for( var i = 1; i <= numIn; i++){
 		if ( i % 5 === 0 && i % 3 === 0) {
 	 		$('.fizzbuzz').append("<li>FizzBuzz</li>");
 	    }
@@ -13,4 +13,12 @@ function FizzBang (limit){
 	 		$('.fizzbuzz').append('<li>' + i + '</li>');
 	 	}
 	}
+}
+
+var inputNumber = prompt("Please enter a whole number", "Enter number here");
+parseInt(inputNumber);
+
+if (inputNumber != null && inputNumber % 1 != 0) {
+
+	FizzBang(inputNumber);
 }
